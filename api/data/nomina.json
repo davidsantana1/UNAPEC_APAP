@@ -1,27 +1,27 @@
 {
-  "encabezado": {
-    "rnc": "401005107",
-    "fecha_proceso": "2025-06-29",
-    "cantidad_empleados": 2,
-    "no_cuenta": "807931407",
-    "codigo_banco": "BHDL",
-    "referencia_pago": "QUINCENA0625",
-    "monto_total": 100000
-  },
-  "detalles": [
-    {
-      "cedula_empleado": "00112345678",
-      "cuenta_empleado": "1234567890",
-      "monto_a_pagar": 50000,
-      "tipo_de_cuenta": "Cuenta Corriente",
-      "codigo_banco_destino": "BHDL"
+    "encabezado": {
+        "rnc": "401005107",
+        "fecha_proceso": "2025-06-29",
+        "cantidad_empleados": 2,
+        "no_cuenta": "807931407",
+        "codigo_banco": "BHDL",
+        "referencia_pago": "QUINCENA042024",
+        "monto_total": 80000
     },
-    {
-      "cedula_empleado": "00287654321",
-      "cuenta_empleado": "0987654321",
-      "monto_a_pagar": 50000,
-      "tipo_de_cuenta": "Cuenta de Ahorros",
-      "codigo_banco_destino": "APAP"
-    }
-  ]
+    "detalles": [
+        {
+            "cedula_empleado": "40223419382",
+            "cuenta_empleado": "0987654321",
+            "monto_a_pagar": 30000,
+            "tipo_de_cuenta": "Cuenta Corriente",
+            "codigo_banco_destino": "APAP"
+        },
+        {
+            "cedula_empleado": "40223419382",
+            "cuenta_empleado": "0987654321",
+            "monto_a_pagar": 50000,
+            "tipo_de_cuenta": "Cuenta de Ahorros",
+            "codigo_banco_destino": "BANR"
+        }
+    ]
 }

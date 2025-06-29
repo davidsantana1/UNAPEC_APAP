@@ -2,8 +2,17 @@ from fastapi import FastAPI
 from models import NominaInput
 from storage import leer_json, guardar_json
 from processor import crear_encabezado, crear_detalle
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 
 @app.get("/nomina")
