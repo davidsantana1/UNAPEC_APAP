@@ -233,7 +233,7 @@ export default function App() {
                 <button
                   type="button"
                   onClick={() => removeEmpleado(idx)}
-                  className="absolute top-2 right-2 text-red-500 text-xl"
+                  className="absolute cursor-pointer top-0 right-2 hover:text-red-600 text-red-500 text-2xl"
                 >
                   &times;
                 </button>
@@ -298,7 +298,7 @@ export default function App() {
           <button
             type="button"
             onClick={addEmpleado}
-            className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded"
+            className="bg-green-600 cursor-pointer hover:bg-green-700 text-white px-4 py-2 rounded"
           >
             + Agregar empleado
           </button>
@@ -306,7 +306,7 @@ export default function App() {
 
         <button
           type="submit"
-          className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded font-semibold"
+          className="bg-blue-600 cursor-pointer hover:bg-blue-700 text-white px-6 py-3 rounded font-semibold"
         >
           Enviar Nómina
         </button>
